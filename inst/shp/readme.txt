@@ -1,0 +1,65 @@
+CShapes Dataset, Version 0.1-1
+Nils B. Weidmann (nils.weidmann@googlemail.com)
+Doreen Kuse (doreen.kuse@googlemail.com)
+Kristian Skrede Gleditsch (ksg@essex.ac.uk)
+
+7 August 2009
+
+Dataset format
+--------------
+
+ESRI shapefile, WGS84 reference system, longitude/latitude coordinates.
+
+
+General description
+-------------------
+
+This is a GIS dataset of country boundaries, incorporating changes in the 
+period 1946-2008. The list of states is compatible with the 
+"Correlates of War" system membership list, version 2008.1, 
+and the Gleditsch and Ward (1999) list of independent states. 
+The dataset provides information about the core territories of 
+the given states, and excludes colonies and other dependent 
+territories. The changing boundaries of the international system 
+are represented in the dataset by coding a "lifetime" 
+for each polygon, i.e. a start and end date between which the polygon is valid.
+
+
+Description of the variables in the dataset
+-------------------------------------------
+
+* CNTRY_NAME: the country name
+* AREA: The polygon area in square kilometers, computed using an Eckert VI projection
+* CAPNAME: The name of the country capital
+* CAPLONG, CAPLAT: Longitude/latitude of the capital, in decimal degrees
+* FEATUREID: A unique identifier for each polygon
+* COWCODE: Correlates of War numeric identifier code
+* COWSYEAR, COWSMONTH, COWSDAY: Start date of the polygon,
+	based on Correlates of War system list
+* COWEYEAR, COWEMONTH, COWEDAY: End date of the polygon,
+	based on Correlates of War system list
+* GWCODE: Gleditsch&Ward (1999) numeric identifier code
+* GWSYEAR, GWSMONTH, GWSDAY: Start date of the polygon,
+	based on Gleditsch and Ward list of independent states  
+* GWEYEAR, GWEMONTH, GWEDAY: End date of the polygon,
+	based on Gleditsch and Ward list of independent states
+* ISONAME: Country name according to ISO 3166 standard (Note: ISO 3166
+	applies only to polygons active during and after 1974).
+* ISO1NUM: ISO 3166-1 numerical country codes (0 if not applicable)
+* ISO1AL2: ISO 3166-1 Alpha2 two-character country codes
+* ISO1AL3: ISO 3166-1 Alpha3 three-character country codes
+
+
+References
+----------
+Correlates of War Project. 2008. "State System Membership List, v2008.1." Online, http://correlatesofwar.org.
+
+Gleditsch, Kristian S. & Michael D. Ward. 1999. "Interstate System Membership: A Revised List of the Independent States since 1816." International Interactions 25: 393-413. Online, http://privatewww.essex.ac.uk/~ksg/statelist.html.
+
+ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists ". Online, http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm.
+
+
+License
+-------
+The CShapes dataset was created using the country layer from the ESRI "Data and Maps" collection (http://www.esri.com/data/data-maps/index.html), version 2006. The original dataset
+is (C) 2006 Environmental Systems Research Institute, Inc.

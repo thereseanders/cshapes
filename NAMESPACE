@@ -1,0 +1,6 @@
+import(sp)
+import(rJava)
+export(distmatrix)
+export(cshapes2yearly)
+export(cshp)
+
