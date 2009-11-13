@@ -1,9 +1,9 @@
-CShapes Dataset, Version 0.1-1
+CShapes Dataset, Version 0.2
 Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-7 August 2009
+13 November 2009
 
 Dataset format
 --------------
@@ -29,7 +29,8 @@ Description of the variables in the dataset
 -------------------------------------------
 
 * CNTRY_NAME: the country name
-* AREA: The polygon area in square kilometers, computed using an Eckert VI projection
+* AREA: The polygon area in square kilometers, computed using an 
+	Eckert VI projection
 * CAPNAME: The name of the country capital
 * CAPLONG, CAPLAT: Longitude/latitude of the capital, in decimal degrees
 * FEATUREID: A unique identifier for each polygon
@@ -52,14 +53,20 @@ Description of the variables in the dataset
 
 References
 ----------
-Correlates of War Project. 2008. "State System Membership List, v2008.1." Online, http://correlatesofwar.org.
+Correlates of War Project. 2008. "State System Membership List, v2008.1." 
+Online, http://correlatesofwar.org.
 
-Gleditsch, Kristian S. & Michael D. Ward. 1999. "Interstate System Membership: A Revised List of the Independent States since 1816." International Interactions 25: 393-413. Online, http://privatewww.essex.ac.uk/~ksg/statelist.html.
+Gleditsch, Kristian S. & Michael D. Ward. 1999. "Interstate System Membership: 
+A Revised List of the Independent States since 1816." International Interactions 25: 393-413. 
+Online, http://privatewww.essex.ac.uk/~ksg/statelist.html.
 
-ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists ". Online, http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm.
+ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists ". 
+Online, http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm.
 
 
 License
 -------
-The CShapes dataset was created using the country layer from the ESRI "Data and Maps" collection (http://www.esri.com/data/data-maps/index.html), version 2006. The original dataset
-is (C) 2006 Environmental Systems Research Institute, Inc.
+The CShapes dataset was created using the country layer from the ESRI "Data and Maps" 
+collection (http://www.esri.com/data/data-maps/index.html), version 2006. The original 
+dataset is (C) 2006 Environmental Systems Research Institute, Inc. 
+Modification and redistribution with permission from ESRI Inc.

@@ -1,0 +1,13 @@
+CShapes Dataset
+---------------
+CHANGELOG
+
+Last updated: November 13, 2009
+Nils B. Weidmann (nils.weidmann@gmail.com)
+
+
+0.1.1 to 0.2
+Added GIS metadata in file cshapes.shp.xml.
+
+0.1-1
+First public release.

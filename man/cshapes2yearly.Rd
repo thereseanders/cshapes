@@ -24,7 +24,7 @@
 \examples{
 # Convert the standard cshapes dataset
 # to a country-year format
-cshp <- cshp()
-cshp.yearly <- cshapes2yearly(cshp, vars=c("AREA", "CAPNAME"))
+cshp.data <- cshp()
+cshp.yearly <- cshapes2yearly(cshp.data, vars=c("AREA", "CAPNAME"))
 }
 \author{Nils B. Weidmann}

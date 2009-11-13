@@ -12,13 +12,13 @@
 }
 \examples{
 # Retrieve the dataset
-cshp <- cshp()
+cshp.data <- cshp()
 
 # Get summary statistics
-summary(cshp)
+summary(cshp.data)
 
 # Extract Switzerland 
-switzerland <- cshp[cshp$COWCODE==225,]
+switzerland <- cshp.data[cshp.data$COWCODE==225,]
 
 # Plot Switzerland
 plot(switzerland)
