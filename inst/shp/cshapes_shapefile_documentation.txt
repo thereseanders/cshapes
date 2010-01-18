@@ -1,9 +1,12 @@
-CShapes Dataset, Version 0.2
+CSHAPES DATASET OF HISTORICAL COUNTRY BOUNDARIES 
+http://nils.weidmann.ws/projects/cshapes
+
 Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-13 November 2009
+
+Version: 0.2-1 (Jan 18, 2010)
 
 Dataset format
 --------------
@@ -64,9 +67,25 @@ ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists ".
 Online, http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm.
 
 
+Citation
+--------
+When using CShapes, please cite 
+
+Weidmann, Nils B., Doreen Kuse, and Kristian Skrede Gleditsch. 
+"The Geography of the International System: The CShapes Dataset." 
+International Interactions 36, no. 1 (2010).
+
+
 License
 -------
 The CShapes dataset was created using the country layer from the ESRI "Data and Maps" 
 collection (http://www.esri.com/data/data-maps/index.html), version 2006. The original 
 dataset is (C) 2006 Environmental Systems Research Institute, Inc. 
 Modification and redistribution with permission from ESRI Inc.
+
+
+Acknowledgements
+----------------
+We gratefully acknowledge help and comments from the following people:
+Haavard Hegre, Luc Girardin, Jan Ketil Rød, Andreas Forø Tollefsen, 
+Kaspar Kundert (ESRI Switzerland), Chad Clay, Lars-Erik Cederman. 

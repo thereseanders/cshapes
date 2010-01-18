@@ -2,14 +2,14 @@ distmatrix <- function(date, type="mindist", tolerance=0.1, useGW=T) {
 
   # check input
   if (!inherits(date, "Date")) {
-    stop("date is not of type Date.")
+    stop("date is not of type Date")
   }
   
   if (date < as.Date("1946-1-1") | date > as.Date("2008-6-30")) {
     stop("Specified date is out of range")
   }
   
-  if (!(type %in% c("mindist", "mindist", "capdist", "centdist"))) {
+  if (!(type %in% c("mindist", "capdist", "centdist"))) {
   	stop("Wrong type argument. Possible values: mindist, capdist, centdist")
   }
   

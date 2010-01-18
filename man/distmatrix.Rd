@@ -29,6 +29,7 @@
 # Compute a matrix of minimum distances 
 # for the international system on 1/1/2008
 # using the Correlates of War list and the default accuracy
+## Not run: 
 wmat <- distmatrix(as.Date("2008-1-1"), type="capdist", useGW=FALSE)
 
 # For model estimation, our matrix should contain 
@@ -37,5 +38,6 @@ wmat <- 1/wmat
 
 # Fix the values along the diagonale
 diag(wmat) <- 0 
+## End(Not run)
 }
 \author{Nils B. Weidmann}

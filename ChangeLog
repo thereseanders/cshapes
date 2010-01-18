@@ -1,0 +1,16 @@
+2010-01-18 (0.2-1)
+* Fixed wrong ISO codes of Bahrain.
+* Added 'date' parameter to cshp() function. 
+
+2010-01-05 (0.1-4)
+* Excluded computation of example.
+
+2009-12-26 (0.1-3)
+* Fixed minor issue to pass R CMD check.
+
+2009-11-15 (0.1-2)
+* Added GIS metadata in file inst/shp/cshapes.shp.xml.
+* Updated package documentation.
+
+2009-08-13 (0.1-1)
+* First public release.
