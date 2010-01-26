@@ -87,5 +87,5 @@ Modification and redistribution with permission from ESRI Inc.
 Acknowledgements
 ----------------
 We gratefully acknowledge help and comments from the following people:
-Haavard Hegre, Luc Girardin, Jan Ketil Rød, Andreas Forø Tollefsen, 
+Håvard Hegre, Luc Girardin, Håvard Strand, Jan Ketil Rød, Andreas Forø Tollefsen, 
 Kaspar Kundert (ESRI Switzerland), Chad Clay, Lars-Erik Cederman. 

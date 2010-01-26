@@ -1,3 +1,6 @@
+2010-01-26 (0.2-2)
+* Recompiled for Java version 1.5.
+
 2010-01-18 (0.2-1)
 * Fixed wrong ISO codes of Bahrain.
 * Added 'date' parameter to cshp() function. 
