@@ -1,3 +1,7 @@
+2010-02-24 (0.2-3)
+* Fixed missing argument in cshp() function.
+* Removed special characters from country names.
+
 2010-01-26 (0.2-2)
 * Recompiled for Java version 1.5.
 

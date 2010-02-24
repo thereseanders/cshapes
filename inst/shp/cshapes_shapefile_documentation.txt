@@ -5,8 +5,7 @@ Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-
-Version: 0.2-1 (Jan 18, 2010)
+This version: 0.2-3 (February 24, 2010)
 
 Dataset format
 --------------
@@ -63,7 +62,7 @@ Gleditsch, Kristian S. & Michael D. Ward. 1999. "Interstate System Membership:
 A Revised List of the Independent States since 1816." International Interactions 25: 393-413. 
 Online, http://privatewww.essex.ac.uk/~ksg/statelist.html.
 
-ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists ". 
+ISO 3166 Maintenance agency. 2008. "ISO 3166 code lists". 
 Online, http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm.
 
 
