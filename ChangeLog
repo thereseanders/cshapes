@@ -1,3 +1,7 @@
+2010-06-09
+* Fixed incorrect longitude of Tonga's capital.
+  (Thanks to Evan McCulla)
+
 2010-02-24 (0.2-3)
 * Fixed missing argument in cshp() function.
 * Removed special characters from country names.

@@ -12,7 +12,7 @@
 		<ModTime>14191900</ModTime>
 		<Sync>FALSE</Sync>
 		<PublishedDocID>{7EEE7F8D-E6A0-426A-9811-D1A4162F0A39}</PublishedDocID>
-	</Esri>
+		<DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20100507" Time="133837">RepairGeometry cshapes DELETE_NULL cshapes</Process></lineage></DataProperties></Esri>
 	<idinfo>
 		<descript>
 			<langdata Sync="TRUE">de</langdata>
