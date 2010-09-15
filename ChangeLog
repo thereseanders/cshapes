@@ -1,4 +1,12 @@
-2010-06-09
+2010-09-15 (0.2-5)
+* Fixed several unintended polygon overlaps in the
+  Gleditsch & Ward coding of cshapes (for Yugoslavia 
+  and its successor states). Note: in order to preserve
+  the order of polygons (which were coded according to the 
+  COW system) we set the G&W start date for Macedonia to the 
+  COW date of April 8, 1993. (Thanks to Andreas Tollufsen)
+
+2010-06-09 (0.2-4)
 * Fixed incorrect longitude of Tonga's capital.
   (Thanks to Evan McCulla)
 
