@@ -5,7 +5,7 @@ Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-This version: 0.2-5 (September 15, 2010)
+This version: 0.2-6 (October 10, 2010)
 
 Dataset format
 --------------

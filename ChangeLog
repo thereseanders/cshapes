@@ -1,3 +1,7 @@
+2010-10-10 (0.2-6)
+* Fixed wrong start date for East Timor. (Thanks to
+  Andreas Tollufsen)
+
 2010-09-15 (0.2-5)
 * Fixed several unintended polygon overlaps in the
   Gleditsch & Ward coding of cshapes (for Yugoslavia 
