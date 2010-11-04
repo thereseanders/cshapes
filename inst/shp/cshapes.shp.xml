@@ -2,17 +2,15 @@
 <!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
 <metadata xml:lang="en">
 	<Esri>
-		<MetaID>{245E7F3D-5D61-4888-8DF5-684244FB1F17}</MetaID>
-		<CreaDate>20000920</CreaDate>
-		<CreaTime>15021200</CreaTime>
+		<CreaDate>20101104</CreaDate>
+		<CreaTime>10342200</CreaTime>
 		<SyncOnce>FALSE</SyncOnce>
 		<SyncDate>20091113</SyncDate>
 		<SyncTime>13375500</SyncTime>
 		<ModDate>20091113</ModDate>
 		<ModTime>14191900</ModTime>
 		<Sync>FALSE</Sync>
-		<PublishedDocID>{7EEE7F8D-E6A0-426A-9811-D1A4162F0A39}</PublishedDocID>
-		<DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20100507" Time="133837">RepairGeometry cshapes DELETE_NULL cshapes</Process></lineage></DataProperties></Esri>
+		<DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20100507" Time="133837">RepairGeometry cshapes DELETE_NULL cshapes</Process></lineage></DataProperties><MetaID>{46EB7356-6133-49C0-BB91-EA62B1CB0597}</MetaID></Esri>
 	<idinfo>
 		<descript>
 			<langdata Sync="TRUE">de</langdata>
@@ -25,7 +23,7 @@
 				<ftname Sync="TRUE">cshapes</ftname>
 				<geoform Sync="TRUE">vector digital data</geoform>
 				<edition>2006</edition>
-			</citeinfo>
+				<onlink Sync="TRUE"></onlink></citeinfo>
 		</citation>
 		<timeperd>
 			<current>publication date: 6/2009</current>
@@ -195,7 +193,7 @@
 				<procdesc>The country polygons from ESRI's Data and Maps collection were modified and updated to conform with the "Correlates of War" and "Gleditsch &amp; Ward" country lists for the period 1946-2008. Every polygon was assigned a "lifetime" for which it is active. More details on the coding procedure and conventions are available on the CShapes website.</procdesc>
 				<srcused>Geographic and Global Issues</srcused>
 			</procstep>
-		</lineage>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><procdate Sync="TRUE">20101104</procdate><proctime Sync="TRUE">10342200</proctime></procstep></lineage>
 		<posacc>
 			<horizpa>
 			</horizpa>
@@ -1606,4 +1604,4 @@ iouKp6in09TT09TT09TT8fHx////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////</Data>
 		</Thumbnail>
 	</Binary>
-	<mdDateSt Sync="TRUE">20091113</mdDateSt></metadata>
+	<mdDateSt Sync="TRUE">20091113</mdDateSt><distInfo><distributor><distorTran><onLineSrc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran></distributor></distInfo></metadata>

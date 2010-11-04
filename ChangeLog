@@ -1,6 +1,10 @@
+2010-11-04 (0.2-7)
+* Fixed GDR coding error (Buesingen exclave). (Thanks to
+  Dan Reiter).
+
 2010-10-10 (0.2-6)
-* Fixed wrong start date for East Timor. (Thanks to
-  Andreas Tollufsen)
+* Fixed wrong start date for East Timor. Deleted duplicate
+  polygon for Yugoslavia. (Thanks to Andreas Tollufsen)
 
 2010-09-15 (0.2-5)
 * Fixed several unintended polygon overlaps in the
