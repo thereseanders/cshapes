@@ -1,6 +1,10 @@
+2011-03-21 (0.2-8)
+* Fixed incorrect location of Mali's capital.
+  (Thanks to Sebastian Schutte)
+
 2010-11-04 (0.2-7)
 * Fixed GDR coding error (Buesingen exclave). (Thanks to
-  Dan Reiter).
+  Dan Reiter). Small changes to Java code.
 
 2010-10-10 (0.2-6)
 * Fixed wrong start date for East Timor. Deleted duplicate
