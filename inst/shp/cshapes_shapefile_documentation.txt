@@ -5,7 +5,7 @@ Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-This version: 0.2-7 (November 04, 2010)
+This version: 0.2-9 (May 03, 2011)
 
 Dataset format
 --------------
@@ -84,5 +84,6 @@ Modification and redistribution with permission from ESRI Inc.
 Acknowledgements
 ----------------
 We gratefully acknowledge help and comments from the following people:
-Håvard Hegre, Luc Girardin, Håvard Strand, Jan Ketil Rød, Andreas Forø Tollefsen, 
-Kaspar Kundert (ESRI Switzerland), Evan McCulla, Chad Clay, Lars-Erik Cederman. 
+Haavard Hegre, Luc Girardin, Haavard Strand, Jan Ketil Rod, Andreas Foro Tollefsen, 
+Kaspar Kundert (ESRI Switzerland), Evan McCulla, Chad Clay, Lars-Erik Cederman, 
+Sebastian Schutte. 
