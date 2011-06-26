@@ -3,6 +3,7 @@ cshapes2yearly <- function(cshp, vars, useGW=T) {
   if (length(vars)==0) stop("Empty list of variables")
 
   if (useGW) {
+  	cshp <- cshp[cshp$GWCODE>=0,]
     startday <- cshp$GWSDAY
     startmonth <- cshp$GWSMONTH
     startyear <- cshp$GWSYEAR    
@@ -13,6 +14,7 @@ cshapes2yearly <- function(cshp, vars, useGW=T) {
     endyear <- cshp$GWEYEAR    
     enddate <- as.Date(paste(cshp$GWEYEAR, cshp$GWEMONTH, cshp$GWEDAY, sep="-"))
   } else {
+    cshp <- cshp[cshp$COWCODE>=0,]
     startday <- cshp$COWSDAY
     startmonth <- cshp$COWSMONTH
     startyear <- cshp$COWSYEAR    
