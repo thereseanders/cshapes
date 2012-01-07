@@ -5,7 +5,7 @@ distlist <- function(date, type="mindist", tolerance=0.1, useGW=T) {
     stop("date is not of type Date")
   }
   
-  if (date < as.Date("1946-1-1") | date > as.Date("2008-6-30")) {
+  if (date < as.Date("1946-1-1") | date > as.Date("2012-6-30")) {
     stop("Specified date is out of range")
   }
   
@@ -16,33 +16,28 @@ distlist <- function(date, type="mindist", tolerance=0.1, useGW=T) {
   if (tolerance<0) {
   	stop("Tolerance must be >=0")
   }
-    
-  year <- as.integer(format(date, "%Y"))
-  month <- as.integer(format(date, "%m"))
-  day <- as.integer(format(date, "%d"))  
-  cd <- .jnew("CountryDistancer", system.file(package = "cshapes"), year, month, day, tolerance, useGW)
   
   # minimum distance
   if (type=="mindist") {
-  	dmat <- .jcall(cd, "getMinDistMatrix", returnSig="[D")
+  	dmat <- distmatrix(date, type="mindist", tolerance, useGW)
   }
       
   # capital distance
   if (type=="capdist") {
-  	dmat <- .jcall(cd, "getCapDistMatrix", returnSig="[D")
+  	dmat <- distmatrix(date, type="capdist", useGW=useGW)
   }
   
   # centroid distance
   if (type=="centdist") {
-  	dmat <- .jcall(cd, "getCentroidDistMatrix", returnSig="[D") 
+  	dmat <- distmatrix(date, type="centdist", useGW=useGW) 
   }
  	
-  dimension <- .jcall(cd, "getDimension", returnSig="I")
-  dimlabels <- .jcall(cd, "getCtrcodes", returnSig="[D")
+  dimension <- ncol(dmat)
+  dimlabels <- colnames(dmat)
   
   ccode1 <- as.vector(sapply(dimlabels, function (x) rep(x, dimension)))
   ccode2 <- rep(dimlabels, dimension)
-  resultframe <- data.frame(cbind(ccode1, ccode2, dmat))
+  resultframe <- data.frame(cbind(as.numeric(ccode1), as.numeric(ccode2), as.numeric(dmat)))
   colnames(resultframe) <- c("ccode1", "ccode2", type)
   resultframe
 }

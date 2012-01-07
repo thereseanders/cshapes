@@ -5,7 +5,7 @@ Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-This version: 0.3-1 (June 26, 2011)
+This version: 0.4-1 (January 07, 2013)
 
 Dataset format
 --------------
@@ -17,8 +17,8 @@ General description
 -------------------
 
 This is a GIS dataset of country boundaries, incorporating changes in the 
-period 1946-2008. The list of states is compatible with the 
-"Correlates of War" system membership list, version 2008.1, 
+period 1946-2012. The list of states is compatible with the 
+"Correlates of War" system membership list, version 2011.1, 
 and the Gleditsch and Ward (1999) list of independent states. 
 The dataset provides information about the core territories of 
 the given states, and excludes colonies and other dependent 
@@ -55,7 +55,7 @@ Description of the variables in the dataset
 
 References
 ----------
-Correlates of War Project. 2008. "State System Membership List, v2008.1." 
+Correlates of War Project. 2011. "State System Membership List, v2011.1." 
 Online, http://correlatesofwar.org.
 
 Gleditsch, Kristian S. & Michael D. Ward. 1999. "Interstate System Membership: 

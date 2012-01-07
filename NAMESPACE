@@ -1,8 +1,8 @@
 import(sp)
-import(rJava)
+import(maptools)
+import(plyr)
 export(distmatrix)
 export(distlist)
-export(cshapes2yearly)
 export(cshp)
 
 
