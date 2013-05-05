@@ -29,13 +29,13 @@
 # Compute a matrix of minimum distances 
 # for the international system on 1/1/1946
 # using the Correlates of War list and the default accuracy
-wmat <- distmatrix(as.Date("1946-1-1"), type="capdist", useGW=FALSE)
+\dontrun{wmat <- distmatrix(as.Date("1946-1-1"), type="capdist", tolerance=0.5, useGW=FALSE)}
 
 # For model estimation, our matrix should contain 
 # the inverted distances
-wmat <- 1/wmat
+\dontrun{wmat <- 1/wmat}
 
 # Fix the values along the diagonale
-diag(wmat) <- 0 
+\dontrun{diag(wmat) <- 0} 
 }
 \author{Nils B. Weidmann}

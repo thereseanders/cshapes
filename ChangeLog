@@ -1,3 +1,10 @@
+2013-05-05 (0.4-2)
+* Fixed ISO codes for Kosovo (thanks to Luc Girardin).
+* Adapted CShapes to the new version of the Gleditsch & Ward
+  country list (changes made in March 2013). This version fixes 
+  the inconsistency with the G&W list introduced in CShapes 
+  version 0.2-5 (Macedonia).
+
 2012-01-07 (0.4-1)
 * Re-wrote the package to eliminate Java dependencies, which 
   causes performance issues on some systems.

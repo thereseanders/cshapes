@@ -1,6 +1,6 @@
 Package: cshapes
-Version: 0.4-1
-Date: 2012-01-07
+Version: 0.4-2
+Date: 2013-05-05
 Title: CShapes Dataset and Utilities
 Author: Nils B. Weidmann <nils.weidmann@uni-konstanz.de>, Kristian
         Skrede Gleditsch <ksg@essex.ac.uk>
@@ -12,6 +12,7 @@ Description: Package for CShapes, a GIS dataset of country boundaries
         (1946-2012). Includes functions for data extraction and the
         computation of distance matrices and -lists.
 License: GPL (>= 2)
-Packaged: 2013-01-10 16:19:18 UTC; nilsw
+Packaged: 2013-05-06 22:05:24 UTC; nilsw
+NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-01-10 17:37:31
+Date/Publication: 2013-05-07 06:22:15
