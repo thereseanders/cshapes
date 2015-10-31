@@ -5,7 +5,7 @@ distmatrix <- function(date, type="mindist", tolerance=0.1, useGW=T) {
     stop("date is not of type Date")
   }
   
-  if (date < as.Date("1946-1-1") | date > as.Date("2012-6-30")) {
+  if (date < as.Date("1946-1-1") | date > as.Date("2015-6-30")) {
     stop("Specified date is out of range")
   }
   

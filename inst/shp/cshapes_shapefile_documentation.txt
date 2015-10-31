@@ -5,7 +5,7 @@ Nils B. Weidmann (nils.weidmann@googlemail.com)
 Doreen Kuse (doreen.kuse@googlemail.com)
 Kristian Skrede Gleditsch (ksg@essex.ac.uk)
 
-This version: 0.4-1 (January 07, 2013)
+This version: 0.4-2 (May 05, 2013)
 
 Dataset format
 --------------
@@ -36,21 +36,34 @@ Description of the variables in the dataset
 * CAPNAME: The name of the country capital
 * CAPLONG, CAPLAT: Longitude/latitude of the capital, in decimal degrees
 * FEATUREID: A unique identifier for each polygon
-* COWCODE: Correlates of War numeric identifier code
+* COWCODE: Correlates of War numeric identifier code. Missing values: -1
 * COWSYEAR, COWSMONTH, COWSDAY: Start date of the polygon,
-	based on Correlates of War system list
+	based on Correlates of War system list. Missing values: -1
 * COWEYEAR, COWEMONTH, COWEDAY: End date of the polygon,
-	based on Correlates of War system list
-* GWCODE: Gleditsch&Ward (1999) numeric identifier code
+	based on Correlates of War system list. Missing values: -1
+* GWCODE: Gleditsch&Ward (1999) numeric identifier code. Missing values: -1
 * GWSYEAR, GWSMONTH, GWSDAY: Start date of the polygon,
-	based on Gleditsch and Ward list of independent states  
+	based on Gleditsch and Ward list of independent states. Missing values: -1  
 * GWEYEAR, GWEMONTH, GWEDAY: End date of the polygon,
-	based on Gleditsch and Ward list of independent states
+	based on Gleditsch and Ward list of independent states. Missing values: -1
 * ISONAME: Country name according to ISO 3166 standard (Note: ISO 3166
 	applies only to polygons active during and after 1974).
 * ISO1NUM: ISO 3166-1 numerical country codes (0 if not applicable)
 * ISO1AL2: ISO 3166-1 Alpha2 two-character country codes
 * ISO1AL3: ISO 3166-1 Alpha3 three-character country codes
+
+
+Missing values in COW/GW codes and dates
+----------------------------------------
+Some polygons have missing values in their COW or GW codes and dates. This is due to the fact
+that the sequences of border changes are coded differently across the two datasets. For example, 
+according to COW, Macedonia secedes from the Yugoslav Federation after Croatia and Bosnia do, 
+but according to GW, it secedes before them. This is why CShapes requires different sequences
+of polygons for Yugoslavia for the two coding schemes. 
+
+It is strongly recommended to drop the polygons with missing values (-1) in the respective
+coding scheme. For example, when working with the COW codes, simply drop the polygons with 
+COWCODE = -1.  
 
 
 References
@@ -75,15 +88,17 @@ International Interactions 36, no. 1 (2010).
 
 License
 -------
-The CShapes dataset was created using the country layer from the ESRI "Data and Maps" 
+CShapes is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 
+International License. See http://creativecommons.org/licenses/by-nc-sa/4.0/.
+It was created using the country layer from the ESRI "Data and Maps" 
 collection (http://www.esri.com/data/data-maps/index.html), version 2006. The original 
 dataset is (C) 2006 Environmental Systems Research Institute, Inc. 
-Modification and redistribution with permission from ESRI Inc.
+Modification and redistribution are done with permission from ESRI Inc.
 
 
 Acknowledgements
 ----------------
 We gratefully acknowledge help and comments from the following people:
 Haavard Hegre, Luc Girardin, Haavard Strand, Jan Ketil Rod, Andreas Foro Tollefsen, 
-Kaspar Kundert (ESRI Switzerland), Evan McCulla, Chad Clay, Lars-Erik Cederman, 
-Sebastian Schutte. 
+Kaspar Kundert (ESRI Switzerland), Evan McCulla, Chad Clay, Lars-Erik Cederman,
+Sebastian Schutte, Mike Ward. 

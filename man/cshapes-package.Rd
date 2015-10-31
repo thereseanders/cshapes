@@ -4,9 +4,9 @@
 \docType{package}
 \title{CShapes Dataset and Utilities}
 \description{
-R Package for CShapes, a GIS dataset of country boundaries (1946-2012). Includes functions for data extraction and the computation of weights matrices.}
+R Package for CShapes, a GIS dataset of country boundaries (1946-2015). Includes functions for data extraction and the computation of weights matrices.}
 \details{
-The \code{cshapes} package facilitates the use of CShapes from R. CShapes is a GIS dataset of historical country boundaries (1946-2012) and compatible with two country lists (Gleditsch and Ward 1999 and Correlates of War, see references below). In particular, the package enables access to the 
+The \code{cshapes} package facilitates the use of CShapes from R. CShapes is a GIS dataset of historical country boundaries (1946-2015) and compatible with two country lists (Gleditsch and Ward 1999 and Correlates of War, see references below). In particular, the package enables access to the 
 dataset directly, as well as distance computations on country polygons for specific points in time. Access to the dataset from within R is done using the 
 \code{\link{cshp}} function. Two functions exist to compute minimum-, capital- and centroid distances between countries: the \code{\link{distmatrix}} function returns these as a matrix (convenient for many spatial statistical applications), and the \code{\link{distlist}} function returns a list of dyadic distances (distances between country pairs).
 See the examples given in the documentation of the functions in this package. The main cshapes website is located at \url{http://nils.weidmann.ws/projects/cshapes} and contains additional documentation and examples for the dataset and the R package.
