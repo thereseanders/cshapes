@@ -16,7 +16,7 @@
 }
 \arguments{
   \item{date}{The date for which the distance matrix should be computed. 
-  This argument must be of type Date and must be in the range 1/1/1946 - 30/6/2012.}
+  This argument must be of type Date and must be in the range 1/1/1946 - end of the dataset.}
   \item{type}{Specifies the type of distance matrix: \code{capdist} for capital distances, \code{centdist} for centroid distances, and \code{mindist} for minimum distances.}
   \item{useGW}{Boolean argument specifying the system membership coding. TRUE (Default): Gleditsch and Ward (1999). FALSE: Correlates of War.}
   \item{tolerance}{Tolerance for polygon simplification according the the Douglas-Peucker algorithm. Only used for mindist computation (type="mindist").}	

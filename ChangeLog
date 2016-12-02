@@ -1,3 +1,19 @@
+2016-11-30 (0.6)
+* Updated CShapes until June 30, 2016.
+* The sequence of polygons for the Soviet Union now uses the correct GW start
+  and end dates. This used to be an inconsistency in all previous versions of the 
+  dataset (thanks to Karim Bahgat for helping us create the new polygons). 
+* Fixed wrong GW date of Namibia's secession from South Africa
+* Set Indonesia's GW start date to Jan 1, 1946 in line with coding conventions.
+* Fixed wrong GW end dates for Vietnam polygons in 1975.
+* Fixed wrong GW end date for China before separation of Taiwan in 1949.
+* Fixed wrong GW end date for Pakistan before separation of Bangladesh 
+  in 1971.
+* Fixed wrong capital name and location for the Mali Federation.
+* Dropped the Mali Federation from the GW list of states.
+* Fixed the wrong start/end dates for the transition from the Mali Federation
+  to Mali proper (thanks to Karim Bahgat for reporting all these issues).
+
 2015-10-30 (0.5-1)
 * Updated CShapes until June 30, 2015
 * Removed ISO codes for Kosovo since no official code has
