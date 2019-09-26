@@ -5,15 +5,17 @@
   The \code{cshp} function makes the cshapes dataset available for usage in R. If no date is given, it returns a \code{SpatialPolygonsDataFrame} with the complete CShapes dataset. If specified, the date is used to create a snapshot of the dataset, containing all cshapes polygons active at the given date.
 }
 \usage{
-  cshp(date=NA, useGW=TRUE)
+  cshp(date=NA, useGW=TRUE, simplify=FALSE, tolerance=0.05)
 }
 \arguments{
   \item{date}{The date for which the cshapes polygons should be extracted. 
   This argument must be of type Date and must be in the range 1/1/1946 - end of the dataset. If omitted, the complete dataset is returned.}
   \item{useGW}{Boolean argument specifying the system membership coding. TRUE (Default): Gleditsch and Ward (1999). FALSE: Correlates of War.}
+  \item{simplify}{Boolean argument specifying whether the shapefile should be simplified by removing vertices, defaults to \code{FALSE}.}
+  \item{tolerance}{Numeric value for tolerance parameter used when \code{simplify == TRUE}, defaults to 0.05.}
 }
 \value{
-  A \code{SpatialPolygonsDataFrame}, containing the complete CShapes dataset, or the CShapes snapshot for the specified date.
+  A class \code{sf} \code{data.frame}, containing the complete CShapes dataset, or the CShapes snapshot for the specified date.
 }
 \examples{
 # Retrieve the dataset

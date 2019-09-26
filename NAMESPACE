@@ -1,6 +1,7 @@
 import(sp)
 import(maptools)
 import(plyr)
+import(sf)
 export(distmatrix)
 export(distlist)
 export(cshp)

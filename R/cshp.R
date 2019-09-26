@@ -1,4 +1,4 @@
-cshp <- function(date=NA, useGW=TRUE) {
+cshp <- function(date=NA, useGW=TRUE, simplify=FALSE, tolerance = 0.05) {
 		
 	# check input
   	if (!is.na(date) && !inherits(date, "Date")) {
@@ -13,8 +13,12 @@ cshp <- function(date=NA, useGW=TRUE) {
 	path <- paste(system.file(package = "cshapes"), "shp/cshapes.shp", sep="/")
 	
 	# load the dataset
-	cshp.full <- readShapePoly(path, proj4string=CRS("+proj=longlat +ellps=WGS84"), IDvar="FEATUREID")
+	cshp.full <- st_read(path)
 	
+	if (simplify == T) {
+	  cshp.full <- st_simplify(cshp.full, dTolerance = tolerance)
+	}
+
 	if (is.na(date)) {
 		cshp.full
 	} else if (useGW) {
